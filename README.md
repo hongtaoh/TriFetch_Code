@@ -2,6 +2,10 @@
 
 An Online RLHF (Reinforcement Learning from Human Feedback) Workbench for medical AI. This tool simulates the process of a medical expert ranking model outputs and calculates the optimization updates (DPO Loss and GRPO Advantages) required to steer the model.
 
+Note:
+
+With small models, the probability of guessing correctly is low. I implemented rejection sampling for honest attempts, with a fallback that conditions on the correct answer to ensure the pipeline completes. In production with a larger model, rejection sampling would succeed more often.
+
 ## Quick Start
 
 ### 1. Install Dependencies

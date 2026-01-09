@@ -121,9 +121,9 @@ class ModelInterface:
             try:
                 prompt = f"""{question}
 
-    Think step by step, then give your answer.
+                    Think step by step, then give your answer.
 
-    ANSWER:"""
+                    ANSWER:"""
 
                 response = self.generate_text(prompt, max_new_tokens=250)
                 time.sleep(2)
@@ -154,7 +154,7 @@ class ModelInterface:
             for i in range(needed):
                 fallback_prompt = f"""{question}
 
-                    The correct answer is {answer_key}. Explain why {answer_key} is correct.
+                    The correct answer is {answer_key} because
 
                     """
 
