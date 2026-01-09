@@ -1,0 +1,21 @@
+# Model Configuration
+# Change 'default' to switch models with one line
+
+default: "qwen-0.5b"
+
+# DPO Settings
+dpo:
+  beta: 0.1
+
+models:
+  smollm-135m:
+    name: "HuggingFaceTB/SmolLM-135M-Instruct"
+    description: "SmolLM 135M (Fast)"
+    
+  smollm-360m:
+    name: "HuggingFaceTB/SmolLM-360M-Instruct"
+    description: "SmolLM 360M (Better)"
+    
+  qwen-0.5b:
+    name: "Qwen/Qwen2-0.5B-Instruct"
+    description: "Qwen2 0.5B (Best)"
