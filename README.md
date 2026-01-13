@@ -8,6 +8,11 @@ Note:
 
 With small models, the probability of guessing correctly is low. I implemented rejection sampling for honest attempts, with a fallback that conditions on the correct answer to ensure the pipeline completes. In production with a larger model, rejection sampling would succeed more often.
 
+## 🎥 Demo
+
+👉 [Click here to watch the demo](demo.mp4)
+
+
 ## Quick Start
 
 ### 1. Install Dependencies
