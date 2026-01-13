@@ -10,11 +10,11 @@ With small models, the probability of guessing correctly is low. I implemented r
 
 ## 🎥 Demo
 
-## 🎥 Demo
-👉 [Watch demo video](https://raw.githubusercontent.com/hongtaoh/TriFetch_Code/main/demo.mp4)
 
 
-👉 [Click here to watch the demo](demo.mp4)
+https://github.com/user-attachments/assets/20acf147-196b-46a1-8809-b82eed6ab322
+
+
 
 
 ## Quick Start
